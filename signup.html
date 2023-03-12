@@ -46,12 +46,12 @@
     <br><br>
     <section id="banner-img">
         <div class="container py-5">
-            <div class="row ms-5 py-5">
-                <div class="col-lg-6 ms-5">
-                    <div class="border bpad border-light shadow h-100 ps-3">
+            <div class="row  py-5 d-flex justify-content-center">
+                <div class="col-lg-10">
+                    <div class="border bpad border-light shadow h-100 w-75 ps-3">
                         <h2 class="hcolor1">Create Account</h2>
                         
-                        <form>
+                        <!-- <form>
                             <label>Full Name</label><br>
                             <input type="text" class="w-50" name="Name" placeholder="Enter Full Name"><br><br>
                             <label>Email Address</label><br>
@@ -59,7 +59,23 @@
                             <label>Password</label><br>
                             <input type="password" class="w-50" name="password" placeholder="Enter Password"><br><br>
                             <button type="submit" class=" button1 border-light text-white rounded-pill">Register</button>
-                        </form>
+                        </form> -->
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputName1" class="form-label">Full Name</label>
+                            <input type="text" class="form-control w-50" id="exampleInputName1" placeholder="Enter Full Name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control w-50" id="exampleInputPassword1" placeholder="Enter Password">
+                          </div>
+                          <button type="submit" class=" button1 border-light text-white rounded-pill">Register</button>
+                          </form>
                     </div>
                 </div>
             </div>
