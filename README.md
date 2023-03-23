@@ -1,3 +1,3 @@
 # Seedkaro
 Live link to view project
-seedkaro-sufiyan-shaikh.netlify.app
+https://seedkaro-sufiyan-shaikh.netlify.app
